@@ -1,10 +1,13 @@
 import { helloWorld } from "./helpers";
 
-const main = async () => console.log(helloWorld());
+const main = async () => {
+  console.log(`Hello...`);
+  console.log(await helloWorld());
+};
 
 main().then(
   () => process.exit(),
-  (err) => {
+  (err: any) => {
     console.error(err);
     process.exit(-1);
   }

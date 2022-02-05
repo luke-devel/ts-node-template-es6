@@ -1,10 +1,10 @@
 {
-  "name": "",
+  "name": "ee-sales",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^17.0.12"

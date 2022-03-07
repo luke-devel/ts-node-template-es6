@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { helloWorld } from "./helpers";
 
 const main = async () => {
